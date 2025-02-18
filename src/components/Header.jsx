@@ -11,7 +11,7 @@ const Header = () => {
             <p className='font-bold '>Journalism Without Fear or Favour</p>
             <p>{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
             <div className='flex items-center gap-2 w-11/12 mx-auto bg-slate-200 p-2'>
-                <span className='bg-red-400 py-1 px-3 text-white '>Latest</span>
+                <span className='bg-red-400 py-1 px-3 text-white '>Latests</span>
                 <Marquee pauseOnHover={true} speed={30}>
                     <Link to='latest'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, alias.</Link>
                     <Link to='latest'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, alias.</Link>
