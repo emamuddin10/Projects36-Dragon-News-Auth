@@ -8,7 +8,7 @@ const Header = () => {
             <div className='text-center flex justify-center'>
                 <img className='text-center' src={logo} alt="" />
             </div>
-            <p className='font-bold '>Journalism Without Fear or Favour</p>
+            <p className='font-bold '>Journalism Without Fear or Favours</p>
             <p>{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
             <div className='flex items-center gap-2 w-11/12 mx-auto bg-slate-200 p-2'>
                 <span className='bg-red-400 py-1 px-3 text-white '>Latests</span>
